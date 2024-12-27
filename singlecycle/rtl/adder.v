@@ -8,6 +8,5 @@ module adder (
     reg cout;
     reg cin;
     assign sum<= a+b;
-    $display("%0h,sum")
     
 endmodule
